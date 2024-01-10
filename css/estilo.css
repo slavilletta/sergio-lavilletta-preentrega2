@@ -1,0 +1,221 @@
+/* Encabezado */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+}
+
+.logo {
+  width: 120px;
+}
+
+.encabezado {
+  background-color: #33FFAC;
+  border-top: 20px solid #13B52D;
+
+}
+
+.cesta {
+  width: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+
+nav ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav a {
+  font-size: 1rem;
+  font-weight: solid;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0;
+}
+
+.menuNav a:hover {
+  background-color: #13B52D;
+  color: #fafafa;
+  transition: all 0.3ms;
+}
+
+/* Subtitulo */
+
+.subtitulo {
+  background-color: #13B52D;
+  font-weight: bold;
+  padding: 15px;
+  color: #fafafa;
+}
+
+.subtitulo h2 {
+  font-size: 2.5rem;
+}
+
+/* PORTADA QUIENES SOMOS*/
+
+
+h3 {
+  text-align: left;
+  text-decoration: underline;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.contImg1 {
+  border-radius: 15px;
+}
+
+.imgCondi {
+  width: 100%;
+  height: 100%;
+}
+
+.contImg1 p {
+  background-color: #33FFAC;
+  color: black;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.imgPrin1 {
+  width: 100%;
+  height: 600px;
+  border-radius: 5px;
+}
+
+/* PROMOCIONES */
+
+
+.promoCondi {
+  width: 500px;
+  height: 600px;
+  box-shadow: 3px 3px grey;
+  margin: 10px 20px;
+}
+
+.promoImgp {
+  padding: 20px;
+  max-width: 100%;
+  background-color: #33FFAC;
+  text-transform: uppercase;
+  border: none;
+}
+
+.promoImg {
+  margin: auto;
+  width: 100%;
+  height: 85%;
+  object-fit: contain;
+}
+
+/* PRODUCTOS */
+.prodImg {
+  height: 300px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.productos {
+  width: 350px;
+  margin: 10px;
+}
+
+/* SUCURSALES */
+
+.prin {
+  display: block;
+}
+
+.sucPrin {
+  display: inline-block;
+  font-size: 25px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+
+iframe {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+
+img {
+  width: 30px;
+}
+
+.sucPrin p {
+  display: inline;
+  font-size: 25px;
+}
+
+/* CONTACTO */
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* BOTONES */
+.botonesForm {
+  display: inline;
+  width: 150px;
+  background-color: #33FFAC;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+  border-radius: 3px;
+}
+
+.botonesForm:hover {
+  background-color: #13B52D;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 10px solid #13B52D;
+  border-bottom: 10px solid #13B52D;
+  background-color: #33FFAC;
+}
+
+footer img {
+  width: 50px;
+}
+
+/* LOGO DE WHATSAPP */
+.logwap {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+}
