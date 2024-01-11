@@ -330,6 +330,11 @@ footer img {
     margin: 5px;
   }
 
+  /* BOTONES */
+  .botonesForm {
+    width: 100px;
+  }
+
   input,
   textarea {
     width: 300px;
@@ -340,7 +345,14 @@ footer img {
   .prin {
     display: flex;
     flex-direction: column;
-    width: 100px;
+  }
+
+  .sucPrin {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
   }
 
 
