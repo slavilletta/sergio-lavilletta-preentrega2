@@ -253,6 +253,15 @@ footer img {
   .logoSlv {
     align-items: center;
     justify-content: center;
+    width: auto;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .redes {
+    width: auto;
   }
 
   /* SUBTITULO */
