@@ -74,8 +74,17 @@ h3 {
   font-size: 30px;
 }
 
+.contCarru {
+  width: 95vw;
+  margin: 10px;
+}
+
 .contImg1 {
+  width: 50%;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .imgCondi {
@@ -100,7 +109,7 @@ h3 {
 
 
 .promoCondi {
-  width: 500px;
+  width: 450px;
   height: 600px;
   box-shadow: 3px 3px grey;
   margin: 10px 20px;
@@ -122,21 +131,23 @@ h3 {
 }
 
 /* PRODUCTOS */
-.prodImg {
-  height: 300px;
-  width: 100%;
-  border-radius: 3px;
-}
 
 .productos {
   width: 350px;
   margin: 10px;
 }
 
+.prodImg {
+  height: 300px;
+  width: 100%;
+  border-radius: 3px;
+}
+
 /* SUCURSALES */
 
 .prin {
   display: block;
+  margin: 20px;
 }
 
 .sucPrin {
@@ -253,6 +264,7 @@ footer img {
   H1 {
     font-size: 3rem;
   }
+
 }
 
 /* vista celu */
@@ -271,7 +283,27 @@ footer img {
     width: 80px;
   }
 
-  /* PROMOCIONES */
+  /* QUIENES SOMOS */
+  .contCarru {
+    width: 95vw;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contImg1 {
+    width: 100%;
+  }
+
+  /* 
+  PROMOCIONES */
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .promoCondi {
     width: 330px;
@@ -297,9 +329,35 @@ footer img {
     width: 340px;
     margin: 5px;
   }
+
+  input,
+  textarea {
+    width: 300px;
+  }
+
+  /* SUCURSALES */
+
+  .prin {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+
+
+  /* FOOTER */
+  .pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoSlv {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-@media (max-width:320px) {
+@media (max-width:400px) {
 
   /* ENCABEZADO */
   H1 {
@@ -312,6 +370,11 @@ footer img {
 
   .logo {
     width: 55px;
+  }
+
+  /* SUBTITULO */
+  .subtitulo h2 {
+    font-size: 1.4rem;
   }
 
   /* PROMOCIONES */
