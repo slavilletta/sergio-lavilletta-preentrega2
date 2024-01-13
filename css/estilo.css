@@ -98,6 +98,7 @@ h3 {
 .imgPrin1 {
   width: 100%;
   object-fit: contain;
+  margin: none;
 }
 
 /* PROMOCIONES */
