@@ -243,6 +243,20 @@ footer img {
 /* vista tablet */
 @media (max-width:1023px) {
 
+  /* QUIENES SOMOS */
+  .contCarru {
+    width: 95vw;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contImg1 {
+    width: 100%;
+  }
+
   /* FOOTER */
   .pie {
     display: flex;
@@ -282,20 +296,6 @@ footer img {
 
   .logo {
     width: 80px;
-  }
-
-  /* QUIENES SOMOS */
-  .contCarru {
-    width: 95vw;
-    margin: 5px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .contImg1 {
-    width: 100%;
   }
 
   /* 
@@ -370,9 +370,14 @@ footer img {
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:480px) {
 
   /* ENCABEZADO */
+  h1 {
+    font-size: 3.5rem;
+    padding: 3px;
+    margin: 0;
+  }
 
   .cesta {
     width: 15px;
