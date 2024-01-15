@@ -373,9 +373,6 @@ footer img {
 @media (max-width:400px) {
 
   /* ENCABEZADO */
-  H1 {
-    font-size: 3rem;
-  }
 
   .cesta {
     width: 15px;
