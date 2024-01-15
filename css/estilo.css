@@ -6,6 +6,11 @@ body {
   font-weight: bold;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .logo {
   width: 120px;
 }
@@ -22,7 +27,8 @@ body {
 
 h1 {
   font-size: 4rem;
-  padding: 10px;
+  padding: 3px;
+  margin: 0;
 }
 
 
@@ -42,7 +48,6 @@ a {
   font-weight: solid;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  padding: 0;
 }
 
 .menuNav a:hover {
@@ -98,7 +103,6 @@ h3 {
 .imgPrin1 {
   width: 100%;
   object-fit: contain;
-  margin: none;
 }
 
 /* PROMOCIONES */
@@ -265,20 +269,12 @@ footer img {
     font-size: 1.8rem;
   }
 
-  /* ENCABEZADO */
-  H1 {
-    font-size: 3rem;
-  }
-
 }
 
 /* vista celu */
 @media (max-width:767px) {
 
   /* ENCABEZADO */
-  H1 {
-    font-size: 2rem;
-  }
 
   .cesta {
     width: 20px;
@@ -378,7 +374,7 @@ footer img {
 
   /* ENCABEZADO */
   H1 {
-    font-size: 1.8 rem;
+    font-size: 3rem;
   }
 
   .cesta {
